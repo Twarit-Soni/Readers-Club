@@ -1,0 +1,136 @@
+/* 
+font-family: 'Belanosima', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Handlee', cursive;
+font-family: 'Lora', serif;
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navigation Section */
+nav {
+  background-color: #ffd95a;
+  text-align: end;
+  padding: 10px;
+}
+/* nav img {
+  height: 30px;
+  margin: 0 auto;
+} */
+
+nav a {
+  color: gray;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0 20px;
+}
+nav a:hover {
+  color: black;
+}
+
+/* Home Page */
+
+.top_container {
+  padding: 60px;
+  padding-left: 9px;
+  display: flex;
+  background-color: #fdffae;
+}
+.top_container h1 {
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 150px;
+  font-size: 8rem;
+  font-family: "Belanosima", sans-serif;
+  color: #2b3467;
+}
+.top_container ul {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.top_container li {
+  font-weight: bolder;
+  margin-top: 10px;
+  color: #2b3467;
+  margin-left: 170px;
+  font-size: 1.4rem;
+  font-family: "DM Sans", sans-serif;
+}
+.top_container img {
+  margin: 100px 0 70px 50px;
+  height: 370px;
+}
+/* Our Products */
+.mid_container {
+  display: flex;
+  flex-direction: column;
+}
+.mid_container h1 {
+  display: inline-block;
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 150px;
+  font-size: 2.7rem;
+  font-family: "Lora", serif;
+  color: black;
+}
+.box {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+}
+.box img {
+  margin-left: 150px;
+
+  border: solid 15px #fdffae;
+  height: 300px;
+}
+.box h3 {
+  padding: 5px;
+  color: #fdffae;
+  font-size: 1.7rem;
+  margin-left: 45px;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 40px;
+  background-color: #2b3467;
+  width: 90%;
+  border-radius: 10px;
+}
+/* Review section */
+.bottom_container {
+  background-color: #ffd95a;
+  display: relative;
+}
+.bottom_container h3 {
+  justify-self: flex-end;
+  padding: 45px;
+  color: #2b3467;
+  font-size: 2rem;
+  margin-left: 15px;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 10px;
+  width: 90%;
+}
+.bottom_container a {
+  margin-bottom: 550px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #2b3467;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
+.bottom_container a:hover {
+  color: #ffd95a;
+}
+.buttons {
+  background-color: #fdffae;
+  text-align: center;
+}
